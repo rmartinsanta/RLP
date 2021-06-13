@@ -11,7 +11,7 @@ Abraham Duarte Muñoz
 
 ## Datasets
 
-Instances are categorized in different datasets inside the 'instances' folder. 
+Instances are categorized in different datasets inside the 'resources/rlp-instance' folder. 
 
 ## Code and executable
 
@@ -21,7 +21,7 @@ You can just run the RLP.jar as follows.
 java -jar RLP.jar
 ```
 
-To solve new instances add them to the `very_large` folder or create a new folder inside `instances` and edit `src/grafo/rlp/data/RLPDataSetManager.java.` and Main.
+To solve new instances add them to the `resources/rlp-instance/very_large` folder or create a new folder inside `resources/rlp-instance` and edit `src/grafo/rlp/data/RLPDataSetManager.java.` and Main.
 
 After the program finishes, `Solution` folder will contain output per instance and `experiments` folder will have all results grouped in a Microsoft Excel file.
 
