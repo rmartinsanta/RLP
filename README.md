@@ -29,5 +29,24 @@ After the program finishes, `Solution` folder will contain output per instance a
 ## Cite
 
 Consider citing our paper if used in your own work:
-(Pending)
+
+### DOI
+https://doi.org/10.1016/j.asoc.2021.107659
+
+### Bibtex
+```
+@article{QUINTANA2021107659,
+title = {Solving the regenerator location problem with an iterated greedy approach},
+journal = {Applied Soft Computing},
+volume = {111},
+pages = {107659},
+year = {2021},
+issn = {1568-4946},
+doi = {https://doi.org/10.1016/j.asoc.2021.107659},
+url = {https://www.sciencedirect.com/science/article/pii/S1568494621005809},
+author = {Juan David Quintana and Raul Martin-Santamaria and Jesus Sanchez-Oro and Abraham Duarte},
+keywords = {Regenerator location problem, GRASP, Iterated greedy, Metaheuristic},
+abstract = {The evolution of digital communications has resulted in new services that require from secure and robust connections. Nowadays, a signal must be transmitted to distant nodes, and the quality of the signal deteriorates as the distance between the endpoints increases. Regenerators are special components that are able to restore the signal, in order to increase the distance that the signal can travel without losing quality. These special components are very expensive to deploy and maintain and, for this reason, it is desirable to deploy the minimum number of regenerators in a network. We propose a metaheuristic algorithm based on the Iterated Greedy methodology to tackle the Regenerator Location Problem, whose objective is to minimize the number of regenerators required in a network. The extensive computational experiments show the performance of the proposed method compared with the best previous algorithm found in the state of the art.}
+}
+```
 
